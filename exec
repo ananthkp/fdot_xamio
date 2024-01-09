@@ -1,0 +1,17 @@
+#!/bin/bash
+
+declare -a dirs=("1" "2" "4" "8" "16" "32" "64")
+#declare -a apps=("histogram" "kmeans" "lreg" "mmult" "pca" "rindex" "smatch" "wordcount" "bt" "cg" "ep" "ft" "is" "mg" "sp" "barnes" "fft" "lu-c" "ocean-c" "radiosity" "raytrace" "water-spatial" "cholesky" "fmm" "lu-n" "ocean-n" "radix" "water-nsquared" "scalparc")
+declare -a apps=("histogram" "kmeans" "lreg"  "rindex" "smatch" "wordcount" "bt" "cg" "ep" "ft" "is" "mg" "sp" "barnes" "fft" "lu-c" "ocean-c" "raytrace" "water-spatial" "cholesky" "fmm" "lu-n" "ocean-n" "radix" "water-nsquared")
+
+for dir in "${dirs[@]}"; do
+    rm -r $dir
+    cp -r work $dir
+    echo "ps -A | grep esesc | awk '{split($0, a, " "); system("kill "a[1])}'"
+    echo cd work/ENOC/$dir
+    echo ./run clean
+    for app in "${apps[@]}"; do
+        echo ./run exec $app $dir
+    done
+    echo exit
+done

@@ -1,0 +1,1 @@
+cmd='/home/ucal/Mount/fdot/esesc/pwth/floorplan/configure;/home/ucal/Mount/fdot/esesc/pwth/floorplan;/home/ucal/Mount/fdot/build/floorplan'

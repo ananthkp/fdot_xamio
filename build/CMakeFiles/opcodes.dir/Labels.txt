@@ -1,0 +1,13 @@
+# Target labels
+ opcodes
+# Source files and their labels
+/home/ucal/Mount/fdot/build/CMakeFiles/opcodes
+/home/ucal/Mount/fdot/build/CMakeFiles/opcodes.rule
+/home/ucal/Mount/fdot/build/CMakeFiles/opcodes-complete.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-install.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-mkdir.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-download.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-update.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-patch.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-configure.rule
+/home/ucal/Mount/fdot/build/opcodes/stampdir/opcodes-build.rule

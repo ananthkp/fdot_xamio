@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#declare -a keys=("globalClock=" "globalClock_Timing=" "wallClock=")
+#declare -a keys=("wallClock" "L2(0):WireFlips" "L2(0):FlipsPerSlot:v")
+#declare -a dirs=("base" "binv" "dbic" "dyzc" "hist" "desc" "sets" "test" "work")
+declare -a keys=("globalClock_Timing=")
+declare -a dirs=("1" "2" "4" "8" "16" "32" "64")
+#declare -a apps=("histogram" "kmeans" "lreg" "mmult" "pca" "rindex" "smatch" "wordcount" "bt" "cg" "ep" "ft" "is" "mg" "sp" "barnes" "fft" "lu-c" "ocean-c" "radiosity" "raytrace" "water-spatial" "cholesky" "fmm" "lu-n" "ocean-n" "radix" "water-nsquared" "scalparc")
+declare -a apps=("histogram" "kmeans" "lreg"  "rindex" "smatch" "wordcount" "bt" "cg" "ep" "ft" "is" "mg" "sp" "barnes" "fft" "lu-c" "ocean-c" "raytrace" "water-spatial" "cholesky" "fmm" "lu-n" "ocean-n" "radix" "water-nsquared")
+
+for key in "${keys[@]}"; do
+    echo $key
+    for dir in "${dirs[@]}"; do
+        echo -n "	"
+        echo -n $dir
+    done
+    echo ""
+    
+    for app in "${apps[@]}"; do
+        echo -n $app
+        for dir in "${dirs[@]}"; do
+            echo -n "	"
+            echo -n `grep "$key" $dir/esesc_$app* | awk '{split($0, a, "="); split(a[2], b, "."); print b[1]}'`
+            #echo -n `grep "$key" $dir/esesc_$app* | awk '{split($0, a, "="); split(a[2], b, "."); print a[2]}'`
+        done
+        echo ""
+    done
+    echo ""
+done
+

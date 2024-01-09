@@ -1,0 +1,19 @@
+sudo: required
+
+language: cpp
+
+services:
+  - docker
+
+env:
+  matrix:
+    - BUILD_TYPE=Release
+    - BUILD_TYPE=Debug
+
+before_install:
+  - docker pull mascucsc/esescbase
+
+script: 
+  - conf/scripts/run-docker-test.sh `pwd` $BUILD_TYPE 0
+
+

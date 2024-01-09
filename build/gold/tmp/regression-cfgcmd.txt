@@ -1,0 +1,1 @@
+cmd='/home/ucal/Mount/fdot/esesc/gold/configure;/home/ucal/Mount/fdot/esesc/gold;/home/ucal/Mount/fdot/build/gold'

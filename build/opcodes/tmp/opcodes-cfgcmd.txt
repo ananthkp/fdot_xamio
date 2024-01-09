@@ -1,0 +1,1 @@
+cmd='/home/ucal/Mount/fdot/esesc/misc/opcodes/configure;--prefix=/home/ucal/Mount/fdot/build/opcodes;CFLAGS= -I/home/ucal/Mount/fdot/esesc/misc/include'

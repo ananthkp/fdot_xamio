@@ -1,0 +1,1 @@
+cmd='/home/ucal/Mount/fdot/esesc/misc/bfd/configure;--prefix=/home/ucal/Mount/fdot/build/bfd;CFLAGS= -g -I/home/ucal/Mount/fdot/esesc/misc/include;--enable-64-bit-bfd'

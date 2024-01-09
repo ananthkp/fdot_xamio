@@ -1,0 +1,13 @@
+# Target labels
+ libiberty
+# Source files and their labels
+/home/ucal/Mount/fdot/build/CMakeFiles/libiberty
+/home/ucal/Mount/fdot/build/CMakeFiles/libiberty.rule
+/home/ucal/Mount/fdot/build/CMakeFiles/libiberty-complete.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-install.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-mkdir.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-download.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-update.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-patch.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-configure.rule
+/home/ucal/Mount/fdot/build/libiberty/stampdir/libiberty-build.rule

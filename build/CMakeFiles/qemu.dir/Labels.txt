@@ -1,0 +1,13 @@
+# Target labels
+ qemu
+# Source files and their labels
+/home/ucal/Mount/fdot/build/CMakeFiles/qemu
+/home/ucal/Mount/fdot/build/CMakeFiles/qemu.rule
+/home/ucal/Mount/fdot/build/CMakeFiles/qemu-complete.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-install.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-mkdir.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-download.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-update.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-patch.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-configure.rule
+/home/ucal/Mount/fdot/build/qemu/stampdir/qemu-build.rule
